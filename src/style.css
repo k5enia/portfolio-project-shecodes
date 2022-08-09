@@ -2,8 +2,42 @@
 font-family: 'Stint Ultra Expanded', cursive;
 font-family: 'Work Sans', sans-serif; semi bold 600, bold 700 */
 
-h1 {
-  color: green;
+.hero {
+  background-color: #69c8df;
+  text-align: center;
+  padding: 160px 20px 200px;
+}
+
+.hero p {
   font-family: "Montserrat";
   font-weight: 400;
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: -40px;
+}
+
+h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 190px;
+  color: #9eff00;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Stint Ultra Expanded";
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+}
+
+.btn-branding {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 5px;
+  color: #69c8df;
+  padding: 10px 21px;
+  margin-top: 70px;
 }
