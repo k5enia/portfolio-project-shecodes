@@ -1,0 +1,9 @@
+/* font-family: 'Montserrat', sans-serif; regular 400, medium 500, extra bold 800, black 900
+font-family: 'Stint Ultra Expanded', cursive;
+font-family: 'Work Sans', sans-serif; semi bold 600, bold 700 */
+
+h1 {
+  color: green;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
