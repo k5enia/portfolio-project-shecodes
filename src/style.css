@@ -6,7 +6,7 @@ font-family: 'Work Sans', sans-serif; semi bold 600, bold 700 */
   --branding-color-2: #ffdf00;
   --branding-color-3: #ff00c7;
   --branding-color-4: #9eff00;
-  --default-font-color: #3e3e3e;
+  --default-font-color: #4e4e4e;
   --default-font-family: "Montserrat";
 }
 
@@ -16,27 +16,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: var(--default-font-color);
-}
-
-.hero {
-  background-color: var(--branding-color-1);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero p {
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 38px;
-  color: #fff;
-  margin-bottom: -40px;
-}
-.hero-h2 {
-  font-family: "Stint Ultra Expanded";
-  font-weight: 400;
-  font-size: 30px;
-  color: #fff;
-  margin: 0;
 }
 
 h1 {
@@ -61,6 +40,10 @@ h3 {
   padding: 10px 0 0;
 }
 
+h4 {
+  font-size: 26px;
+}
+
 .btn-branding {
   font-family: "Montserrat";
   font-weight: 800;
@@ -72,25 +55,53 @@ h3 {
   margin-top: 70px;
 }
 
-.about-headings {
-  margin-top: 80px;
+/* hero */
+.hero {
+  background-color: var(--branding-color-1);
+  text-align: center;
+  padding: 160px 20px;
 }
 
+.hero p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: -40px;
+}
+.hero-h2 {
+  font-family: "Stint Ultra Expanded";
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+}
+/* about */
 .about-heading {
   color: var(--branding-color-3);
 }
+.about {
+  margin-bottom: 100px;
+}
 
+/* projects */
 .projects-heading {
   color: var(--branding-color-4);
-}
-.container-fluid {
-}
-.projects-row-primary {
-  background-color: #f5f4f4;
-  color: var(--default-font-color);
+  padding-top: 50px;
 }
 
-.projects-row-alt {
-  background-color: #fff;
-  color: var(--default-font-color);
+.project-background {
+  background-color: rgb(245, 245, 245);
+}
+
+.project-image img {
+  height: 350px;
+}
+
+/* contact */
+.contact-heading {
+  color: var(--branding-color-2);
+}
+
+.contact-image img {
 }
